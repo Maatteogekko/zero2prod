@@ -25,5 +25,5 @@ struct FormData {
 }
 
 async fn subscribe(form: web::Form<FormData>) -> impl Responder {
-    HttpResponse::Ok()
+    HttpResponse::Ok().finish()
 }

@@ -2,5 +2,16 @@
     "cSpell.words": [
         "actix",
         "reqwest"
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "zero2prod newsletter",
+            "connectString": "postgres://postgres:password@127.0.0.1:5432/newsletter",
+            "database": "newsletter",
+            "username": "postgres"
+        }
     ]
 }
