@@ -13,5 +13,6 @@
             "database": "newsletter",
             "username": "postgres"
         }
-    ]
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
 }
